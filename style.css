@@ -6,10 +6,6 @@ body {
     background-color: black;
 }
 
-a {
-    text-decoration: none;
-}
-
 .gradient {
     height: 100vh;
     background: rgb(255,191,0);
@@ -24,6 +20,7 @@ a {
     font-weight: bold;
     font-size: 128px;
     color: white;
+    text-decoration: none;
 }
 
 .black {
