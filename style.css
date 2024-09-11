@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 body {
-    height: 100vh;
-    width: 100vw;
     margin: 0;
     padding: 0;
     background-color: black;
 }
 
-.background {
-    height: 100%;
-    width: 100%;
+a {
+    text-decoration: none;
+}
+
+.gradient {
+    height: 100vh;
     background: rgb(255,191,0);
     background: linear-gradient(135deg, rgba(255,191,0,1) 0%, rgba(145,70,255,1) 100%);
     display: flex;
@@ -18,10 +19,31 @@ body {
     align-items: center;
 }
 
-.text {
+.at {
     font-family: "Fira Code";
     font-weight: bold;
     font-size: 128px;
     color: white;
-    text-decoration: none;
+}
+
+.black {
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickly {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
 }
