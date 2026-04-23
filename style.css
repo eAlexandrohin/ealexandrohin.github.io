@@ -8,6 +8,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1vw;
 }
 
 body > div {
@@ -18,33 +21,40 @@ body > div {
     scroll-snap-align: start;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .gradient {
     background: linear-gradient(135deg, rgba(255,191,0,1) 0%, rgba(145,70,255,1) 100%);
 }
 
 .at {
-    font-family: "JetBrains Mono", monospace;
     font-weight: bold;
     font-size: 8vw;
-    color: white;
-    text-decoration: none;
 }
 
-.black {
-    background: black;
+.project {
     flex-direction: column;
 }
 
-.tickly {
+.link {
     height: fit-content;
     width: fit-content;
+    max-width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.tickly > img {
+.link > img {
     width: 100%;
     object-fit: contain;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2vw;
 }
